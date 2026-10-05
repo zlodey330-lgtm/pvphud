@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvphud",
+  "version": "${version}",
+  "name": "PvP HUD",
+  "description": "Shows totem count and armor durability on screen.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pvphud.PvpHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
